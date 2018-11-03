@@ -3,12 +3,13 @@ def line(queue)
   if queue.length > 0
     print "The line is currently: "
     counter = 1
+    result = ""
     queue.each {
       |name| 
-      print "#{counter}. #{name} "
+      result += "#{counter}. #{name} "
       counter += 1
     }
-    puts ""
+    puts result
   else
     puts "The line is currently empty."
   end
