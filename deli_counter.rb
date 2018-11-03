@@ -9,7 +9,7 @@ def line(queue)
       counter += 1
     }
   else
-    
+    puts "The line is currently empty."
   end
   
 end
