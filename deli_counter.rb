@@ -3,7 +3,7 @@ def line(queue)
   if queue.length > 0
     print "The line is currently: "
     counter = 1
-    array.each {
+    queue.each {
       |name| 
       print "#{counter}. #{name} "
       counter += 1
