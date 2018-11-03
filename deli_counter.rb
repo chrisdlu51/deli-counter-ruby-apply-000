@@ -5,7 +5,7 @@ def line(queue)
     counter = 1
     array.each {
       |name| 
-      
+      print "#{counter}. #{name} "
       counter += 1
     }
 end
