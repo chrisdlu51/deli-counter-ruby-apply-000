@@ -4,7 +4,7 @@ def line(queue)
     counter = 1
     array.each {
       |x| 
-      result[counter] = x**2
+      
       counter += 1
     }
 end
