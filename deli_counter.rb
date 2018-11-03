@@ -8,6 +8,7 @@ def line(queue)
       print "#{counter}. #{name} "
       counter += 1
     }
+    puts ""
   else
     puts "The line is currently empty."
   end
