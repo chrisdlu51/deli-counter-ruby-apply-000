@@ -8,4 +8,7 @@ def line(queue)
       print "#{counter}. #{name} "
       counter += 1
     }
+    return
+  end
+  
 end
