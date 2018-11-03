@@ -20,7 +20,11 @@ def take_a_number(queue, name)
   puts "Welcome, #{name}. You are number #{queue.length} in line."
 end
 
-def now_serving
-  
-  puts "Currently serving #{name}."
+def now_serving(queue)
+  if queue.length > 0
+    name = queue.shift
+    puts "Currently serving #{name}."
+  else
+    puts "There is nobody waiting to be served!"
+  end
 end
