@@ -5,7 +5,7 @@ def line(queue)
     result = ""
     queue.each {
       |name| 
-      result += " #{counter}. #{name}"
+      result << " #{counter}. #{name}"
       counter += 1
     }
     puts ("The line is currently:" + result)
